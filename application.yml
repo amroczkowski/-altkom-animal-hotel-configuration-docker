@@ -5,7 +5,7 @@ eureka:
     service-url:
       defaultZone: http://animal-hotel-service-registry:8761/eureka/
   instance:
-    hostname: localhost
+    hostname: animal-hotel-service-registry
 spring:
   zipkin:
     base-url: http://host.docker.internal:9411/
